@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">CoroutinesToyApp</string>
+    <string name="number_not_received">Number not received</string>
+</resources>
