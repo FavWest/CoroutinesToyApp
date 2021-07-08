@@ -12,6 +12,6 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
         val textView = findViewById<TextView>(R.id.text_view)
         val vm = ViewModelProvider(this).get(MainActivityViewModel::class.java)
-        textView.text = vm.currentNumber.toString()
+        textView.text = vm.currentNumber.value.toString()
     }
 }
